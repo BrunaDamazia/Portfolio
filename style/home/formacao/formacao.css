@@ -20,7 +20,7 @@
     font-size: 1.5rem;
     line-height: 1.33;
     margin-bottom: 60px;
-    /* max-width: 60ch; */
+    max-width: 70ch;
     color: #a3a3a3;
 }
 
@@ -135,12 +135,7 @@
 
     .formacao-texto {
         font-size: 1.25rem;
-        /* max-width: 50ch; */
     }
-
-    /* .curso-lista {
-        max-width: 600px;
-    } */
 
     .formacao-extra h3::before {
         position: initial;
