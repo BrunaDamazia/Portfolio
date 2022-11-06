@@ -1,0 +1,59 @@
+:root {
+  --cor-1: #1a1d22; /* titulos */
+  --cor-2: #282b30; /* textos */
+  --cor-3: #797d84; /* detalhes */
+  --cor-4: #1c1e21; /* botao */
+  --cor-5: #ffffff; /* botao hover */
+  --cor-6: #0e1013; /* nav */
+  --cor-7: #eeeeee; /* background */
+
+  --cor-p1: #395886;
+  --cor-p2: #628ecb;
+  --cor-p3: #8aaee0;
+  --cor-p4: #cfdef5;
+  --cor-p5: #e5ebf5;
+}
+
+.cor-1 {
+  color: var(--cor-1);
+}
+
+.cor-2 {
+  color: var(--cor-2);
+}
+
+.cor-3 {
+  color: var(--cor-3);
+}
+
+.cor-4 {
+  color: var(--cor-4);
+}
+
+.cor-5 {
+  color: var(--cor-5);
+}
+
+.cor-6 {
+  color: var(--cor-6);
+}
+
+.cor-p1 {
+  color: var(--cor-p1);
+}
+
+.cor-p2 {
+  color: var(--cor-p2);
+}
+
+.cor-p3 {
+  color: var(--cor-p3);
+}
+
+.cor-p4 {
+  color: var(--cor-p4);
+}
+
+.cor-p5 {
+  color: var(--cor-p5);
+}

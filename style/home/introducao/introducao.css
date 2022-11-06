@@ -1,0 +1,54 @@
+/* .introducao {
+  
+} */
+
+.introducao h1 {
+  position: relative;
+  font-size: 2rem;
+  max-width: 300px;
+  line-height: 1.125;
+  margin-bottom: 30px;
+}
+
+.introducao h1::before {
+    left: -15px;
+    top: -10px;
+  }
+  
+  .introducao h1::after {
+    right: -5px;
+    bottom: -10px;
+  }
+
+.introducao p {
+  font-size: 1.125rem;
+  /* color: #525252; */
+}
+
+@media (min-width: 500px) {
+  .introducao h1 {
+    font-size: 3rem;
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 800px) {
+  .introducao {
+    padding: 160px 40px;
+    gap: 40px;
+  }
+
+  .introducao h1 {
+    font-size: 4.5rem;
+    max-width: 800px;
+    /* background-color: #525252; */
+  }
+
+  .introducao h1 span:hover {
+    color: var(--cor-p1);
+  }
+
+  .introducao p {
+    font-size: 1.5rem;
+  }
+}
