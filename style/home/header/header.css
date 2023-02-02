@@ -21,7 +21,7 @@
 }
 
 .header-menu a:hover {
-    color: var(--cor-p2);
+    color: var(--cor-p1);
 }
 
 @media (max-width: 800px) {

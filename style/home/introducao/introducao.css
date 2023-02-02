@@ -1,6 +1,6 @@
-/* .introducao {
-  
-} */
+.introducao {
+position: relative;  
+}
 
 .introducao h1 {
   position: relative;
@@ -25,10 +25,48 @@
   /* color: #525252; */
 }
 
+.icons {
+  width: 40px;
+  position: absolute;
+  z-index: -5;
+}
+
+.css-icon {
+  top: 30px;
+  left: 250px;
+  transform: rotate(30deg);
+}
+
+.javascript-icon {
+  top: -20px;
+  transform: rotate(10deg);
+}
+
+.html-icon {
+  top: 30px;
+  left: 130px;
+  transform: rotate(-40deg);
+}
+
+.bootstrap-icon {
+  top: 100px;
+}
+
+.react-icon {
+  top: 180px;
+  left: 200px;
+}
+
+
+
 @media (min-width: 500px) {
   .introducao h1 {
     font-size: 3rem;
     max-width: 500px;
+  }
+
+  .icons {
+    width: 50px;
   }
 }
 
@@ -50,5 +88,9 @@
 
   .introducao p {
     font-size: 1.5rem;
+  }
+
+  .icons {
+    width: 100px;
   }
 }
