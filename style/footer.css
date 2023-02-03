@@ -1,3 +1,14 @@
+.contato {
+    /* background-color: aquamarine; */
+    padding: 40px;
+}
+
+.contato-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 form {
   /* background-color: aquamarine; */
   max-width: 100%;
@@ -21,7 +32,7 @@ form {
 input,
 textarea {
   background: var(--cor-7);
-  border: 1px solid var(--cor-p5);
+  border: none;
   width: 100%;
   outline: none;
 }
