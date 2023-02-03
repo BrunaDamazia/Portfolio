@@ -4,7 +4,7 @@
 }
 
 .formacao-container {
-  min-width: 1200px;
+  max-width: 1200px;
   padding: 60px 30px;
   gap: 40px;
   margin: 0 auto;

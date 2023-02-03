@@ -1,12 +1,27 @@
+footer .titulo {
+  /* background-color: aquamarine; */
+  grid-column: 1/-1;
+  padding: 0px 20px;
+  text-align: center;
+}
+
 .contato {
-    /* background-color: aquamarine; */
-    padding: 40px;
+  /* background-color: aquamarine; */
+  padding: 20px;
 }
 
 .contato-info {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.redes {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 form {
@@ -14,7 +29,7 @@ form {
   max-width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  padding: 40px;
+  padding: 20px;
   box-sizing: border-box;
 }
 
@@ -68,6 +83,11 @@ textarea {
 }
 
 @media (min-width: 600px) {
+  .redes {
+    margin-bottom: 20px;
+    justify-content: start;
+  }
+
   form {
     grid-template-columns: 1fr 1fr;
   }
