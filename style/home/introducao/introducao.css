@@ -25,11 +25,11 @@ position: relative;
   /* color: #525252; */
 }
 
-.icons {
+/* .icons {
   width: 40px;
   position: absolute;
   z-index: -5;
-}
+} */
 
 /* .css-icon {
   top: 30px;
@@ -92,7 +92,7 @@ position: relative;
     font-size: 1.5rem;
   }
 
-  .icons {
+  /* .icons {
     width: 100px;
   }
 
@@ -122,6 +122,6 @@ position: relative;
   .react-icon {
     top: 330px;
     left: 850px;
-  }
+  } */
 
 }

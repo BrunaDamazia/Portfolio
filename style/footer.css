@@ -1,0 +1,77 @@
+form {
+  /* background-color: aquamarine; */
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.form {
+  margin-top: 20px;
+  position: relative;
+  display: grid;
+  align-items: center;
+}
+
+.form input {
+  height: 32px;
+}
+
+input,
+textarea {
+  background: var(--cor-7);
+  border: 1px solid var(--cor-p5);
+  width: 100%;
+  outline: none;
+}
+
+.form::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(var(--cor-p2), var(--cor-p1));
+  position: absolute;
+  top: 8px;
+  left: -4px;
+}
+
+.form-email {
+  grid-column: 1/-1;
+}
+
+.form-assunto {
+  grid-column: 1/-1;
+}
+
+.form-mensagem {
+  grid-column: 1/-1;
+  margin-bottom: 20px;
+}
+
+.botao-enviar {
+  /* grid-column: 1; */
+  justify-self: end;
+  /* margin: 0px 20px 20px 0px; */
+}
+
+@media (min-width: 600px) {
+  form {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .form-nome {
+    margin-right: 20px;
+  }
+
+  .form-email {
+    grid-column: auto;
+  }
+
+  .botao-enviar {
+    grid-column: 2;
+    justify-self: end;
+    margin: 0px 20px 20px 0px;
+  }
+}
