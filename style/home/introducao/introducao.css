@@ -31,9 +31,9 @@ position: relative;
   z-index: -5;
 }
 
-.css-icon {
+/* .css-icon {
   top: 30px;
-  left: 250px;
+  left: 300px;
   transform: rotate(30deg);
 }
 
@@ -56,8 +56,8 @@ position: relative;
 
 .react-icon {
   top: 130px;
-  left: 200px;
-}
+  left: 250px;
+} */
 
 
 
@@ -95,4 +95,33 @@ position: relative;
   .icons {
     width: 100px;
   }
+
+  .css-icon {
+    top: 30px;
+    right: -3px;
+    transform: rotate(30deg);
+  }
+  
+  .javascript-icon {
+    top: -10px;
+    transform: rotate(10deg);
+  }
+  
+  .html-icon {
+    top: 100px;
+    left: 550px;
+    transform: rotate(-40deg);
+  }
+  
+  .bootstrap-icon {
+    top: 450px;
+    left: 200px;
+    transform: rotate(50deg);
+  }
+  
+  .react-icon {
+    top: 330px;
+    left: 850px;
+  }
+
 }
