@@ -1,50 +1,66 @@
 body {
-    font-family: "Fira Sans", sans-serif;
-    margin: 0px;
-    color: #141414;
+  font-family: "Fira Sans", sans-serif;
+  margin: 0px;
+  color: #141414;
 }
 
-h1, h2, h3, p {
-    position: relative;
-    margin: 0px;
+h1,
+h2,
+h3,
+p {
+  position: relative;
+  margin: 0px;
 }
 
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
 }
 
 ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
 img {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 .container {
-    max-width: 1200px;
-    padding: 40px 20px;
-    margin: 0 auto;
-    display: grid;
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
 }
 
 .subtitulo {
-    font-size: 8rem;
-    line-height: 1;
-    text-transform: uppercase;
-    word-break: break-all;
-    max-width: 5ch;
-    text-align: right;
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 5ch;
+  text-align: right;
 }
 
-@media(max-width: 800px) {
-      .subtitulo {
-       font-size: 3rem;
-       text-transform: capitalize;
-       max-width: initial;
-       text-align: left;
-    }
+.projetos::before,
+.curso-titulo::before,
+.form::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(var(--cor-p2), var(--cor-p1));
+  position: absolute;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial;
+    text-align: left;
+  }
 }

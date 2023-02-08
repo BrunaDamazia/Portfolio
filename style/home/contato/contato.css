@@ -1,4 +1,4 @@
-.footer-container {
+.contato-container {
   max-width: 1200px;
   padding: 100px 20px 60px 20px;
   margin: 0 auto;
@@ -6,12 +6,18 @@
   grid-template-columns: 1fr;
   gap: 20px;
   align-items: center;
+  position: relative;
+  justify-items: center;
 }
 
-footer .titulo {
+.contato-container .titulo {
   grid-column: 1/-1;
   padding: 20px 20px;
   text-align: center;
+}
+
+.contato-container .subtitulo {
+  display: none;
 }
 
 .contato {
@@ -71,14 +77,13 @@ textarea {
 }
 
 .form::before {
-  content: "";
-  display: block;
-  width: 4px;
   height: 16px;
-  background: linear-gradient(var(--cor-p2), var(--cor-p1));
-  position: absolute;
   top: 8px;
   left: -4px;
+}
+
+.form-nome {
+  grid-column: 1/-1;
 }
 
 .form-email {
@@ -101,7 +106,7 @@ input {
 
 input:hover,
 input:focus {
-  border-bottom: 2px solid var(--cor-p1);
+  border-bottom: 1px solid var(--cor-p1);
 }
 
 .botao-enviar {
@@ -161,11 +166,26 @@ button:active {
 }
 
 @media (min-width: 600px) {
-  .footer-container {
+  form {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contato-container .subtitulo {
+    display: inline-block;
+    color: #e0e0e0;
+    position: absolute;
+    z-index: -5;
+    font-size: 15rem;
+    top: 50px;
+    left: 50px;
+  }
+}
+
+@media (min-width: 800px) {
+  .contato-container {
     grid-template-columns: 1fr 1fr;
   }
   .redes {
-    margin-bottom: 20px;
     justify-content: start;
   }
 
@@ -175,6 +195,7 @@ button:active {
 
   .form-nome {
     margin-right: 20px;
+    grid-column: auto;
   }
 
   .form-email {
@@ -184,5 +205,15 @@ button:active {
   .botao-enviar {
     grid-column: 2;
     justify-self: end;
+  }
+
+  .contato-container .subtitulo {
+    display: inline-block;
+    color: #e0e0e0;
+    position: absolute;
+    z-index: -5;
+    font-size: 15rem;
+    top: 50px;
+    left: 50px;
   }
 }
